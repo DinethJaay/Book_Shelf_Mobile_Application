@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signupx"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:padding="20dp">
+            <TextView
+                android:id="@+id/RName"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:id="@+id/SName"
+                android:layout_marginTop="51dp"
+                android:padding="8dp"
+                android:hint="Name"
+                android:drawableLeft="@drawable/baseline_perm_identity_24"
+                android:drawablePadding="10dp"
+                android:background="@drawable/lboader"/>
+            <TextView
+                android:id="@+id/RRole"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <Spinner
+                android:id="@+id/roleSpinner"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp"
+                android:layout_centerInParent="true"
+                android:entries="@array/role_options"
+                android:background="@drawable/lboader"
+                android:drawableStart="@drawable/baseline_lock_24"
+                android:hint="Select a role"
+                android:spinnerMode="dropdown"/>
+            <TextView
+                android:id="@+id/REmail"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:id="@+id/SEmail"
+                android:layout_marginTop="1dp"
+                android:padding="8dp"
+                android:hint="Email"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="10dp"
+                android:background="@drawable/lboader"/>
+
+            <TextView
+                android:id="@+id/RPassword"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:id="@+id/SPassword"
+                android:layout_marginTop="1dp"
+                android:padding="8dp"
+                android:hint="Password"
+                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawablePadding="10dp"
+                android:background="@drawable/lboader"/>
+            <TextView
+                android:id="@+id/RCPassword"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:id="@+id/SCPassword"
+                android:layout_marginTop="1dp"
+                android:inputType="textPassword"
+                android:hint="Confirm Password"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="10dp"
+                android:background="@drawable/lboader"/>
+
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="55dp"
+                android:text="Continue"
+                android:id="@+id/btnSignUp"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginRedirect"
+                android:text="Already have an Account ? Click Here"
+                android:padding="8dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

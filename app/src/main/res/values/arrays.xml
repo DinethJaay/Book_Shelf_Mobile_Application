@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="role_options" >
+        <item>Select a role</item>
+        <item>Admin</item>
+        <item>Customer</item>
+        <item>Courier</item>
+    </string-array>
+    <string-array name="city_options">
+        <item>Select Your Branch</item>
+        <item>Ampara</item>
+        <item>Anuradhapura</item>
+        <item>Badulla</item>
+        <item>Batticaloa</item>
+        <item>Colombo</item>
+        <item>Galle</item>
+        <item>Gampaha</item>
+        <item>Hambantota</item>
+        <item>Jaffna</item>
+        <item>Kalutara</item>
+        <item>Kandy</item>
+        <item>Kegalle</item>
+        <item>Kilinochchi</item>
+        <item>Kurunegala</item>
+        <item>Mannar</item>
+        <item>Matale</item>
+        <item>Matara</item>
+        <item>Monaragala</item>
+        <item>Mullaitivu</item>
+        <item>Nuwara Eliya</item>
+        <item>Polonnaruwa</item>
+        <item>Puttalam</item>
+        <item>Ratnapura</item>
+        <item>Trincomalee</item>
+        <item>Vavuniya</item>
+    </string-array>
+    <string-array name="Employee_Role_options">
+        <item>Select Your Role</item>
+        <item>Executive Level</item>
+        <item>Operational Level</item>
+        <item>Management level</item>
+        <item>Senior Manager</item>
+        <item>Junior Manager</item>
+    </string-array>
+    <string-array name="books_categories">
+        <item>Select Book Categories</item>
+        <item>Maths</item>
+        <item>Science</item>
+        <item>History</item>
+        <item>Technical</item>
+        <item>Story</item>
+        <item>Language</item>
+    </string-array>
+</resources>

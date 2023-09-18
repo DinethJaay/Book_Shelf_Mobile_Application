@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg5"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/purple1"
+            android:text="Update Details"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:layout_centerHorizontal="true"/>
+
+        <!-- Price -->
+        <EditText
+            android:id="@+id/txtprice"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/title"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded"
+            android:hint="Price"
+            android:textColorHint="#888"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+
+        <!-- Quantity -->
+        <EditText
+            android:id="@+id/txtquantity"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/txtprice"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded"
+            android:hint="Quantity"
+            android:textColorHint="#888"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+
+        <!-- Description -->
+        <EditText
+            android:id="@+id/txtdescription"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_below="@id/txtquantity"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded"
+            android:hint="Description"
+            android:textColorHint="#888"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="top" />
+
+        <!-- Update Button -->
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/txtdescription"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textSize="21sp"
+            android:textColor="#FFF"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>
